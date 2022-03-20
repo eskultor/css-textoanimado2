@@ -1,0 +1,76 @@
+body
+{
+	background: tomato;
+	background-image: url(https://2img.net/h/img.webme.com/pic/j/jhoncoy/fondo_001.jpg);
+	background-size: cover;
+	animation: animated 200s infinite;
+}
+@keyframes animated
+{
+	100%{background-position: 0 -3000px;}
+}
+h1
+{
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 2px 0px 2px black;
+	text-transform: capitalize;
+	color: yellow;
+}
+.container
+{
+	width: 450px;
+	height: 60px;
+	color: red;
+	text-shadow: 2px 1px 2px black, 3px 0px 4px black;
+	font-size: 60px;
+	line-height: 60px;
+	display: flex;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	overflow: hidden;
+}
+ul
+{
+	list-style: none;
+	padding-left: 10px;
+	animation: subir 7s alternate infinite;
+}
+ul,p
+{
+	margin: 0px;
+}
+@keyframes subir
+{
+	0%
+	{
+		margin-top: 0px;
+	}
+	
+
+	25%
+	{
+		margin-top: -60px;
+		color: peru;
+	}
+	50%
+	{
+		margin-top: -120px;
+		color: yellow;
+	}
+	75%
+	{
+		margin-top: -180px;
+		color: orangered;
+	}
+	100%
+	{
+		margin-top: -240px;
+		color: red;
+	}
+}
